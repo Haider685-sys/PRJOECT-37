@@ -1,0 +1,60 @@
+# Git ignore file for MATLAB/Simulink projects
+
+# MATLAB
+*.m~
+*.asv
+*.slxc
+*.slx~
+*.mdl~
+*.mlx~
+slprj/
+target/
+rtwgen/
+RTW/
+
+# Simulink generated files
+/codegen/
+/simlink/
+/work/
+/cache/
+*.autosave
+
+# MATLAB workspace
+*.mat
+*.fig
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs and temp
+*.log
+temp/
+tmp/
+*.temp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node modules
+node_modules/
